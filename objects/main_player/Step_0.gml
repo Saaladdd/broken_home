@@ -1,67 +1,86 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
-pick_up = false;
-image_speed =1;
+/// @description Player movement and camera update script
+
+// Initialize variables
+pick_up = false; // Flag for item pickup
+image_speed = 1; // Default animation speed
+
+// Movement input
 var right = keyboard_check(vk_right);
 var left = keyboard_check(vk_left);
 var up = keyboard_check(vk_up);
 var down = keyboard_check(vk_down);
-if(keyboard_check(vk_lshift)){rate_mov=dashspeed;image_speed = 2;}else{rate_mov=movspeed;}
-//if((down and right)or(down and left) or (up and right)or(up and left)){}
-x_spd = rate_mov*(right-left);
-y_spd = rate_mov*(down-up);
-if(!(x_spd)&&(!y_spd)){set_animation_frame("idle")}
-if(x_spd>0){set_animation_frame("right")}
-if(x_spd<0){set_animation_frame("left")}
-if(y_spd<0){set_animation_frame("up")}
-if(y_spd>0){set_animation_frame("down")}
+
+// Set movement speed (dash or normal)
+if (keyboard_check(vk_lshift)) {
+    rate_mov = dashspeed; // Dash speed
+    image_speed = 2;      // Faster animation during dash
+} else {
+    rate_mov = movspeed;  // Normal speed
+}
+
+// Calculate movement speed in x and y directions
+x_spd = rate_mov * (right - left);
+y_spd = rate_mov * (down - up);
+
+// Animation control
+if (!(x_spd || y_spd)) { // No movement
+    set_animation_frame("idle");
+} else if (x_spd > 0) {
+    set_animation_frame("right");
+} else if (x_spd < 0) {
+    set_animation_frame("left");
+} else if (y_spd < 0) {
+    set_animation_frame("up");
+} else if (y_spd > 0) {
+    set_animation_frame("down");
+}
+
+
 /*
+// Collision detection (keep this commented as per your request)
 if(place_meeting(x+x_spd,y,obj_collision)){
-    x_spd=0;
+    x_spd = 0; // Stop horizontal movement on collision
 }
 if(place_meeting(x,y+y_spd,obj_collision)){
-    y_spd=0;
+    y_spd = 0; // Stop vertical movement on collision
 }
-
 
 if(place_meeting(x+x_spd,y,_all_items)){
-    x_spd=0;
+    x_spd = 0; // Stop horizontal movement if colliding with an item
 }
 if(place_meeting(x,y+y_spd,_all_items)){
-    y_spd=0;
-	
+    y_spd = 0; // Stop vertical movement if colliding with an item
 }
 
-
-
 if(place_meeting(x,y,obj_roomswitch)){
-    x_spd=0;
+    x_spd = 0; // Stop horizontal movement on room switch collision
 }
 if(place_meeting(x,y,obj_roomswitch)){
-    y_spd=0;
-	
+    y_spd = 0; // Stop vertical movement on room switch collision
 }
 */
-//For pickup and to get deletion id
+
+// Item pickup logic
 for (var i = 0; i < array_length(directions); i++) {
     var dx = directions[i][0]; // x offset
     var dy = directions[i][1]; // y offset
-    //show_debug_message("Checking position: (" + string(x + dx) + ", " + string(y + dy) + ")");
     if (place_meeting(x + dx, y + dy, all_items)) {
-        pick_up = true; // Set pick_up to true if an item is found
-        //show_debug_message("Item found at: (" + string(x + dx) + ", " + string(y + dy) + ")");        
+        pick_up = true; // Item found
         with (instance_place(x + dx, y + dy, all_items)) {
-            deletion_id = id;
-		}
-        break; // Exit the loop once an item is found
+            deletion_id = id; // Store the item's ID for deletion
+        }
+        break; // Exit the loop after finding one item
     }
 }
+
+// Apply movement
 x += x_spd;
 y += y_spd;
-// Loop through all views
 
+/*
+// Debugging (uncomment if needed)
+// show_debug_message("X: " + string(x) + " Y: " + string(y));
+*/
 
-//0print("X:",x,"Y:",y);
+// Debug output
 show_debug_message("PLAYER:X:{0} Y:{1}",x,y);

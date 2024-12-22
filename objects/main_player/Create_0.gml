@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Variables
+// Define camera and viewport variables
+
 
 movspeed = 2;
 dashspeed = 4;
