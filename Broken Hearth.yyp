@@ -30,12 +30,17 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"Broken Hearth",
   "resources":[
+    {"id":{"name":"obj_camscroll_letterboxed_text","path":"objects/obj_camscroll_letterboxed_text/obj_camscroll_letterboxed_text.yy",},},
+    {"id":{"name":"obj_imposter_red1","path":"objects/obj_imposter_red1/obj_imposter_red1.yy",},},
+    {"id":{"name":"obj_roomswitch","path":"objects/obj_roomswitch/obj_roomswitch.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_playermodel1","path":"sprites/spr_playermodel1/spr_playermodel1.yy",},},
+    {"id":{"name":"spr_roomswitch","path":"sprites/spr_roomswitch/spr_roomswitch.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
