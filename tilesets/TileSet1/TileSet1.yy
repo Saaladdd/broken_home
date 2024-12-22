@@ -1,5 +1,5 @@
 {
-  "$GMTileSet":"v1",
+  "$GMTileSet":"",
   "%Name":"TileSet1",
   "autoTileSets":[],
   "macroPageTiles":{
@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Broken Hearth",
+    "path":"Broken Hearth.yyp",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
@@ -25,6 +25,10 @@
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[0,1,2,3,],
+    "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
