@@ -35,18 +35,15 @@
   },
   "name":"Broken Hearth",
   "resources":[
-<<<<<<< Updated upstream
     {"id":{"name":"pixelfont","path":"fonts/pixelfont/pixelfont.yy",},},
     {"id":{"name":"obj_camscroll_letterboxed_text","path":"objects/obj_camscroll_letterboxed_text/obj_camscroll_letterboxed_text.yy",},},
     {"id":{"name":"obj_imposter_red1","path":"objects/obj_imposter_red1/obj_imposter_red1.yy",},},
     {"id":{"name":"obj_roomswitch","path":"objects/obj_roomswitch/obj_roomswitch.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
-=======
     {"id":{"name":"all_items","path":"objects/all_items/all_items.yy",},},
     {"id":{"name":"main_player","path":"objects/main_player/main_player.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"wave","path":"scripts/wave/wave.yy",},},
