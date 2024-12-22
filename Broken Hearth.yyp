@@ -36,8 +36,10 @@
   "resources":[
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"bed_spr","path":"sprites/bed_spr/bed_spr.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"table_spr","path":"sprites/table_spr/table_spr.yy",},},
+    {"id":{"name":"wood_floor_spr","path":"sprites/wood_floor_spr/wood_floor_spr.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
