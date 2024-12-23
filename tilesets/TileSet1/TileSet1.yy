@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"wood_floor_spr",
+    "path":"sprites/wood_floor_spr/wood_floor_spr.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

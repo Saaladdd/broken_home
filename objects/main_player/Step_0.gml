@@ -36,22 +36,22 @@ if (!(x_spd || y_spd)) { // No movement
 }
 
 
-/*
-// Collision detection (keep this commented as per your request)
-if(place_meeting(x+x_spd,y,obj_collision)){
-    x_spd = 0; // Stop horizontal movement on collision
-}
-if(place_meeting(x,y+y_spd,obj_collision)){
-    y_spd = 0; // Stop vertical movement on collision
-}
 
-if(place_meeting(x+x_spd,y,_all_items)){
+// Collision detection
+if(place_meeting(x+x_spd,y,obj_items)){
     x_spd = 0; // Stop horizontal movement if colliding with an item
 }
-if(place_meeting(x,y+y_spd,_all_items)){
+if(place_meeting(x,y+y_spd,obj_items)){
     y_spd = 0; // Stop vertical movement if colliding with an item
 }
-
+//Environment
+if(place_meeting(x+x_spd,y,obj_environment)){
+    x_spd = 0; // Stop horizontal movement if colliding with an item
+}
+if(place_meeting(x,y+y_spd,obj_environment)){
+    y_spd = 0; // Stop vertical movement if colliding with an item
+}
+/*
 if(place_meeting(x,y,obj_roomswitch)){
     x_spd = 0; // Stop horizontal movement on room switch collision
 }
@@ -64,9 +64,9 @@ if(place_meeting(x,y,obj_roomswitch)){
 for (var i = 0; i < array_length(directions); i++) {
     var dx = directions[i][0]; // x offset
     var dy = directions[i][1]; // y offset
-    if (place_meeting(x + dx, y + dy, all_items)) {
+    if (place_meeting(x + dx, y + dy, obj_items)) {
         pick_up = true; // Item found
-        with (instance_place(x + dx, y + dy, all_items)) {
+        with (instance_place(x + dx, y + dy, obj_items)) {
             deletion_id = id; // Store the item's ID for deletion
         }
         break; // Exit the loop after finding one item
@@ -77,10 +77,7 @@ for (var i = 0; i < array_length(directions); i++) {
 x += x_spd;
 y += y_spd;
 
-/*
-// Debugging (uncomment if needed)
-// show_debug_message("X: " + string(x) + " Y: " + string(y));
-*/
+
 
 // Debug output
 show_debug_message("PLAYER:X:{0} Y:{1}",x,y);
