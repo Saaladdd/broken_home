@@ -1,5 +1,3 @@
-/// @description Player movement and camera update script
-
 // Initialize variables
 pick_up = false; // Flag for item pickup
 image_speed = 1; // Default animation speed
@@ -26,6 +24,7 @@ y_spd = rate_mov * (down - up);
 if (!(x_spd || y_spd)) { // No movement
     set_animation_frame("idle");
 } else if (x_spd > 0) {
+	global.move_direction =
     set_animation_frame("right");
 } else if (x_spd < 0) {
     set_animation_frame("left");
@@ -35,30 +34,8 @@ if (!(x_spd || y_spd)) { // No movement
     set_animation_frame("down");
 }
 
-
-
 // Collision detection
-if(place_meeting(x+x_spd,y,obj_items)){
-    x_spd = 0; // Stop horizontal movement if colliding with an item
-}
-if(place_meeting(x,y+y_spd,obj_items)){
-    y_spd = 0; // Stop vertical movement if colliding with an item
-}
-//Environment
-if(place_meeting(x+x_spd,y,obj_environment)){
-    x_spd = 0; // Stop horizontal movement if colliding with an item
-}
-if(place_meeting(x,y+y_spd,obj_environment)){
-    y_spd = 0; // Stop vertical movement if colliding with an item
-}
-/*
-if(place_meeting(x,y,obj_roomswitch)){
-    x_spd = 0; // Stop horizontal movement on room switch collision
-}
-if(place_meeting(x,y,obj_roomswitch)){
-    y_spd = 0; // Stop vertical movement on room switch collision
-}
-*/
+player_collision();
 
 // Item pickup logic
 for (var i = 0; i < array_length(directions); i++) {
