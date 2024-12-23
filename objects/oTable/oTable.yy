@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"all_items",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oTable",
+  "eventList":[],
   "managed":true,
-  "name":"all_items",
+  "name":"oTable",
   "overriddenProperties":[],
   "parent":{
-    "name":"all_items",
-    "path":"folders/Objects/all_items.yy",
+    "name":"things",
+    "path":"folders/Objects/things.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_environment",
+    "path":"objects/obj_environment/obj_environment.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"table_spr",
+    "path":"sprites/table_spr/table_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
