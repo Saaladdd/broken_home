@@ -1,4 +1,4 @@
-target = main_player;
+target = obj_player;
 cameraHeight = 300;
 cameraWidth = 400;
 cameraScale = 3;

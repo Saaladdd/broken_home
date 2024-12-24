@@ -1,15 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Variables
-// Define camera and viewport variables
-
-
+can_move = true;
 movspeed = 2;
 dashspeed = 4;
 image_index = 0;
 globalvar rate_mov;
 globalvar x_spd, y_spd;
 globalvar pick_up;
+facing = 100000;
 globalvar deletion_id;
 deletion_id =-1;
 directions = [
