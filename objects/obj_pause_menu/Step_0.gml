@@ -1,6 +1,7 @@
 if (keyboard_check_pressed(vk_escape)) {
-    global.paused = false; // Resume the game
-    instance_destroy(); // Remove the pause menu
+    global.paused = false; 
+	instance_activate_object(obj_controller);
+    instance_destroy(); 
 }
 
 if (keyboard_check_pressed(ord("Q"))) {
