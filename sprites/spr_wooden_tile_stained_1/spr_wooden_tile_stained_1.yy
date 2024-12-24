@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"table_spr",
-  "bboxMode":2,
-  "bbox_bottom":48,
-  "bbox_left":5,
-  "bbox_right":58,
-  "bbox_top":14,
+  "%Name":"spr_wooden_tile_stained_1",
+  "bboxMode":0,
+  "bbox_bottom":63,
+  "bbox_left":0,
+  "bbox_right":63,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c3894235-50e6-4fa6-89a8-f89d6812cd40","name":"c3894235-50e6-4fa6-89a8-f89d6812cd40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c1884bb9-ac3e-48fb-b7c1-c8f9817ec96a","name":"c1884bb9-ac3e-48fb-b7c1-c8f9817ec96a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":47,
+  "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3fcf0114-fdde-462f-bfc9-cede359ab2b5","blendMode":0,"displayName":"default","isLocked":false,"name":"3fcf0114-fdde-462f-bfc9-cede359ab2b5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0beabbe0-40f4-4c5f-88e1-75fe56ce1e4c","blendMode":0,"displayName":"default","isLocked":false,"name":"0beabbe0-40f4-4c5f-88e1-75fe56ce1e4c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"table_spr",
+  "name":"spr_wooden_tile_stained_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"table_spr",
+    "%Name":"spr_wooden_tile_stained_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"table_spr",
+    "name":"spr_wooden_tile_stained_1",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c3894235-50e6-4fa6-89a8-f89d6812cd40","path":"sprites/table_spr/table_spr.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39dfa447-4243-41c2-96bb-d9f4e940ae9c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1884bb9-ac3e-48fb-b7c1-c8f9817ec96a","path":"sprites/spr_wooden_tile_stained_1/spr_wooden_tile_stained_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"60f53637-43cc-40b6-9933-94c9a15bb8b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":55,
+  "width":64,
 }
