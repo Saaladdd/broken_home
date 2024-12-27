@@ -1,16 +1,14 @@
-// Initialize variables
-pick_up = false; // Flag for item pickup
-image_speed = 1; // Default animation speed
-
 
 // Movement input
 var right = keyboard_check(vk_right);
 var left = keyboard_check(vk_left);
 var up = keyboard_check(vk_up);
 var down = keyboard_check(vk_down);
+x_spd=0;
+y_spd=0;
 
 // Set movement speed (dash or normal)
-if(can_move){
+if(up || down || left || right){
 	if (keyboard_check(vk_lshift)) {
 	    rate_mov = dashspeed; // Dash speed
 	    image_speed = 2;      // Faster animation during dash
@@ -19,21 +17,23 @@ if(can_move){
 	}
 
 	// Calculate movement speed in x and y directions
+	
 	x_spd = rate_mov * (right - left);
 	y_spd = rate_mov * (down - up);
+	facing = point_direction(x,y,x+x_spd,y+y_spd);
+	
 
 	// Animation control
-	if (!(x_spd || y_spd)) { // No movement
-	    set_animation_frame("idle");
-	} else if (x_spd > 0) {
-		global.move_direction =
-	    set_animation_frame("right");
-	} else if (x_spd < 0) {
-	    set_animation_frame("left");
+	if (!(x_spd || y_spd)) {
+    set_animation_frame("idle");
 	} else if (y_spd < 0) {
 	    set_animation_frame("up");
 	} else if (y_spd > 0) {
 	    set_animation_frame("down");
+	} else if (x_spd > 0) {
+	    set_animation_frame("right");
+	} else if (x_spd < 0) {
+	    set_animation_frame("left");
 	}
 }
 // Collision detection
@@ -54,8 +54,7 @@ for (var i = 0; i < array_length(directions); i++) {
 }
 
 // Apply movement
-if(x_spd != 0 || y_spd !=0){
-	facing = point_direction(x,y,x+x_spd,y+y_spd);
+if(x_spd !=0 || y_spd !=0 ){
 	x += x_spd;
 	y += y_spd;
 }
@@ -63,5 +62,5 @@ if(x_spd != 0 || y_spd !=0){
 
 
 // Debug output
-show_debug_message("PLAYER:{0}",facing);
+
 

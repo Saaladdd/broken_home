@@ -6,8 +6,9 @@ movspeed = 2;
 dashspeed = 4;
 image_index = 0;
 globalvar rate_mov;
-globalvar x_spd, y_spd;
 globalvar pick_up;
+globalvar x_spd,y_spd;
+
 facing = 100000;
 globalvar deletion_id;
 deletion_id =-1;
@@ -27,10 +28,10 @@ pick_up = false;
 //All animation frames structure
 animations ={	
 	idle:{frames:[0,0]},
-	right:{frames:[0,3]},
-	left:{frames:[0,3]},
-	up:{frames:[0,3]},
-	down:{frames:[0,3]},
+	right:{frames:[2,2]},
+	left:{frames:[1,1]},
+	up:{frames:[4,4]},
+	down:{frames:[0,0]},
 };
 //Function for animations
 function set_animation_frame(status){
