@@ -63,7 +63,6 @@
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},},
     {"id":{"name":"spr_bed_1","path":"sprites/spr_bed_1/spr_bed_1.yy",},},
     {"id":{"name":"spr_bed_side_table_1","path":"sprites/spr_bed_side_table_1/spr_bed_side_table_1.yy",},},
-    {"id":{"name":"spr_closet_1","path":"sprites/spr_closet_1/spr_closet_1.yy",},},
     {"id":{"name":"spr_mat_1","path":"sprites/spr_mat_1/spr_mat_1.yy",},},
     {"id":{"name":"spr_player_model_3","path":"sprites/spr_player_model_3/spr_player_model_3.yy",},},
     {"id":{"name":"spr_playermodel1","path":"sprites/spr_playermodel1/spr_playermodel1.yy",},},
