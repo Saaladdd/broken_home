@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bed",
+  "%Name":"obj_barrier",
   "eventList":[],
   "managed":true,
-  "name":"obj_bed",
+  "name":"obj_barrier",
   "overriddenProperties":[],
   "parent":{
-    "name":"things",
-    "path":"folders/Objects/things.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_environment",
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bed_1",
-    "path":"sprites/spr_bed_1/spr_bed_1.yy",
+    "name":"spr_barrier",
+    "path":"sprites/spr_barrier/spr_barrier.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

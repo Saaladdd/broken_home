@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oTable",
+  "%Name":"obj_table",
   "eventList":[],
   "managed":true,
-  "name":"oTable",
+  "name":"obj_table",
   "overriddenProperties":[],
   "parent":{
     "name":"things",

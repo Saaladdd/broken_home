@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bed",
+  "%Name":"obj_bed_side_table",
   "eventList":[],
   "managed":true,
-  "name":"obj_bed",
+  "name":"obj_bed_side_table",
   "overriddenProperties":[],
   "parent":{
     "name":"things",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bed_1",
-    "path":"sprites/spr_bed_1/spr_bed_1.yy",
+    "name":"spr_bed_side_table_1",
+    "path":"sprites/spr_bed_side_table_1/spr_bed_side_table_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
