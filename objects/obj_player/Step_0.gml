@@ -63,5 +63,5 @@ if(x_spd != 0 || y_spd !=0){
 
 
 // Debug output
-show_debug_message("PLAYER:{0}",facing);
+
 
