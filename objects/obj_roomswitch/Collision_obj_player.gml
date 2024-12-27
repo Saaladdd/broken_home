@@ -3,8 +3,8 @@ fadeout=0;
 if(a=1)
 {
 	room_goto(targetRoom);
-	obj_imposter_red1.x = targetX;
-	obj_imposter_red1.y = targetY;
+	obj_player.x = targetX;
+	obj_player.y = targetY;
 	fadeout=1;
 }	
 
