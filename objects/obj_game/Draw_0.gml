@@ -17,7 +17,7 @@ if !surface_exists(paused_surf)
     }else
     {
     draw_surface(paused_surf, 0, 0);
-    //draw_set_alpha(0.5);   makes the screen dim , player dissapears for some reason so alpha is set to 1 to hide issue(fix later)
+    draw_set_alpha(0.5);   //makes the screen dim , player dissapears for some reason so alpha is set to 1 to hide issue(fix later)
 	draw_set_font(pixelfont);
     draw_rectangle_colour(0, 0, display_get_width(), display_get_height(), c_black, c_black, c_black, c_black, false); //draw rectangle covering whole screen with alpha 0.5
     draw_set_alpha(1);
