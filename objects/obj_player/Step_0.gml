@@ -24,9 +24,7 @@ if(up || down || left || right){
 	
 
 	// Animation control
-	if (!(x_spd || y_spd)) {
-    set_animation_frame("idle");
-	} else if (y_spd < 0) {
+	if (y_spd < 0) {
 	    set_animation_frame("up");
 	} else if (y_spd > 0) {
 	    set_animation_frame("down");

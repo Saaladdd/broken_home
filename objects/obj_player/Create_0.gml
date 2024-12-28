@@ -29,9 +29,9 @@ pick_up = false;
 animations ={	
 	idle:{frames:[0,0]},
 	right:{frames:[2,2]},
-	left:{frames:[1,1]},
-	up:{frames:[4,4]},
-	down:{frames:[0,0]},
+	left:{frames:[0,0]},
+	up:{frames:[3,3]},
+	down:{frames:[1,1]},
 };
 //Function for animations
 function set_animation_frame(status){

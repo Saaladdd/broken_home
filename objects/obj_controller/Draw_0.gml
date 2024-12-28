@@ -4,10 +4,11 @@ if !surface_exists(paused_surf)
     {
     if paused_surf == -1
         {
+		paused_surf = surface_create(display_get_width(), display_get_height());
         instance_deactivate_all(true);
 		instance_activate_object(obj_camera);
         }
-	paused_surf = surface_create(display_get_width(), display_get_height());  //camera width and height form obj_camera
+	  //camera width and height form obj_camera
 
 	
 
