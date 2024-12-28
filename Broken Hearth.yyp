@@ -54,6 +54,7 @@
     {"id":{"name":"obj_roomswitch","path":"objects/obj_roomswitch/obj_roomswitch.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
+    {"id":{"name":"room_camera_test","path":"rooms/room_camera_test/room_camera_test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
@@ -105,6 +106,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_camera_test","path":"rooms/room_camera_test/room_camera_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
