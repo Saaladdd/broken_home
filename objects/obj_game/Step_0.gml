@@ -12,19 +12,7 @@ if(keyboard_check_pressed(ord("T"))){
 	}
 }
 
+show_debug_message("Player X:{0} Y:{1}",obj_player.x,obj_player.y);
+show_debug_message("TB X:{0} Y:{1}",textbox_width,textbox_height);
 
 
-if room == Room2{
-	if keyboard_check_pressed(ord("P")){
-		paused = !paused;
-		if paused == false{
-	        instance_activate_all();
-	        surface_free(paused_surf);
-	        paused_surf = -1;
-        }
-    }
-	if(paused == true){
-	    alarm[0]++;
-	    alarm[1]++;
-    }
-}
