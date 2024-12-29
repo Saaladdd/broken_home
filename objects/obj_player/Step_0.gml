@@ -33,6 +33,12 @@ if(up || down || left || right){
 	} else if (x_spd < 0) {
 	    set_animation_frame("left");
 	}
+	
+}
+//Incase the player is not giving any direction input
+else{
+	set_animation_frame(get_direction(facing));
+	
 }
 // Collision detection
 player_collision();

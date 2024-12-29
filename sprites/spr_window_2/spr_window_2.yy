@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"spr_playerroom",
+    "path":"folders/Sprites/spr_playerroom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

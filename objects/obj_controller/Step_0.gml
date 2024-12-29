@@ -1,4 +1,4 @@
-if room == Room2
+if room == rm_player_room
 {
 if keyboard_check_pressed(ord("P"))
     {

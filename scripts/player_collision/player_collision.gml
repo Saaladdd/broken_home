@@ -29,3 +29,18 @@ function player_collision(){
 	}
 	*/
 }
+
+function get_direction(val){
+	switch(val){
+		case 0 :
+			return "right_face";
+		case 90 :
+			return "up_face";
+		case 180 :
+			return "left_face";
+		case 270 :
+			return "down_face";
+		default:
+			return "down_face";
+	}
+}

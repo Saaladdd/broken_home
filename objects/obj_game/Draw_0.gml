@@ -19,4 +19,5 @@ if(!setup){
 textbox_spr_w = sprite_get_width(spr_tb);
 textbox_spr_h = sprite_get_height(spr_tb);
 
-draw_sprite_ext(spr_tb,100,textbox_x,textbox_y,textbox_width/textbox_spr_w,textbox_height/textbox_spr_h,0,c_white,1);
+if(draw)
+	draw_sprite_ext(spr_tb,100,textbox_x,textbox_y,textbox_width/textbox_spr_w,textbox_height/textbox_spr_h,0,c_white,1);

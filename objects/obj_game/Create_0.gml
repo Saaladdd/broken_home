@@ -20,3 +20,4 @@ draw_char = 0;
 text_speed = 1;
 
 setup = false;
+draw = 0

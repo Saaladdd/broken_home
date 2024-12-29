@@ -11,8 +11,8 @@
   "name":"obj_camscroll_letterboxed_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"main_controllers",
+    "path":"folders/Objects/main_controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

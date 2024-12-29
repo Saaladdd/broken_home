@@ -28,10 +28,14 @@ pick_up = false;
 //All animation frames structure
 animations ={	
 	idle:{frames:[0,0]},
-	right:{frames:[2,2]},
-	left:{frames:[0,0]},
-	up:{frames:[3,3]},
-	down:{frames:[1,1]},
+	right:{frames:[8,11]},
+	left:{frames:[4,7]},
+	up:{frames:[12,15]},
+	down:{frames:[0,3]},
+	right_face:{frames:[8,8]},
+	left_face:{frames:[4,4]},
+	up_face:{frames:[12,12]},
+	down_face:{frames:[0,0]}
 };
 //Function for animations
 function set_animation_frame(status){
