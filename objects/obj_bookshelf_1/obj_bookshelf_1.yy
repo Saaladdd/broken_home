@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_closet_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bookshelf_1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_closet_1",
+  "name":"obj_bookshelf_1",
   "overriddenProperties":[],
   "parent":{
     "name":"things",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_closet_1",
-    "path":"sprites/spr_closet_1/spr_closet_1.yy",
+    "name":"spr_bookshelf_1",
+    "path":"sprites/spr_bookshelf_1/spr_bookshelf_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

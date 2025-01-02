@@ -1,0 +1,1 @@
+dialogue = ["Doesn't turn on..","Maybe I should ask dad to come fix it."];

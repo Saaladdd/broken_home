@@ -1,0 +1,1 @@
+dialogue = ["Not the best time to sleep.","I should probably check if dad's back home."]

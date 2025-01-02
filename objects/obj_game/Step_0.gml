@@ -1,5 +1,10 @@
 var is_fullscreen = window_get_fullscreen();
 
+
+while(global.z_cooldown != 0){
+	global.z_cooldown--;
+}
+
 if(keyboard_check_pressed(ord("T"))){
 	if(is_fullscreen){
 		window_set_fullscreen(false);
