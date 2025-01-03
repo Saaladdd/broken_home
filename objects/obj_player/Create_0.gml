@@ -3,7 +3,7 @@
 //Variables
 movspeed = 2
 global.can_move = true;
-dashspeed = 4;
+dashspeed = 2.8;
 image_index = 0;
 globalvar rate_mov;
 globalvar pick_up;

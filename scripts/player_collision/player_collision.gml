@@ -40,11 +40,11 @@ function player_collision() {
     }
 
     // Room Switch Collision
-    if (place_meeting(x, y, obj_roomswitch)) {
+    if (place_meeting(x+x_spd, y,obj_save)) {
         x_spd = 0; // Stop horizontal movement on room switch collision
     }
 
-    if (place_meeting(x, y, obj_roomswitch)) {
+    if (place_meeting(x, y+y_spd, obj_save)) {
         y_spd = 0; // Stop vertical movement on room switch collision
     }
 }
@@ -104,6 +104,28 @@ function check_for_interaction(){
 	}
 	    
     return noone; // Return noone if no interaction is found
+}
+
+function check_for_interaction_with(){
+	
+	face_dir = get_facing(obj_player.facing);
+    // Check for collision in all 4 directions
+	if(obj_player.facing == 0 || obj_player.facing == 180){
+		
+	    if (place_meeting(obj_player.x + face_dir, obj_player.y, obj_save)) {
+			return true;
+	            
+	    }
+	    
+	}
+
+	if(obj_player.facing == 90 || obj_player.facing == 270 ){
+	        if (place_meeting(obj_player.x, obj_player.y + face_dir, obj_save)) {
+				return true;
+			}
+	}
+	    
+    return false; // Return noone if no interaction is found
 }
 
 
