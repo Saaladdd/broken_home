@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_bed_side_table_1",
   "bboxMode":2,
-  "bbox_bottom":36,
+  "bbox_bottom":28,
   "bbox_left":0,
   "bbox_right":38,
   "bbox_top":7,

@@ -1,0 +1,1 @@
+dialogue = ["Collecting dust. Maybe I should read sometime.."];

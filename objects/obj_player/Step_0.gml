@@ -8,7 +8,7 @@ x_spd=0;
 y_spd=0;
 
 // Set movement speed (dash or normal)
-if(up || down || left || right){
+if((up || down || left || right) && global.can_move){
 	if (keyboard_check(vk_lshift)) {
 	    rate_mov = dashspeed; // Dash speed
 	    image_speed = 2;      // Faster animation during dash
@@ -41,7 +41,24 @@ else{
 	
 }
 // Collision detection
+if(global.can_move){
+	interaction = check_for_interaction();
+	if (interaction != noone){
+		if(array_length(interaction.dialogue) != 0){
+			if(interact_z() && global.display == false){
+				global.text = interaction.dialogue;
+				global.display = true;
+				global.can_move = false;
+			
+			}
+		}
+	}
+}
 player_collision();
+
+	
+
+
 
 
 // Item pickup logic
@@ -58,6 +75,7 @@ for (var i = 0; i < array_length(directions); i++) {
 }
 
 // Apply movement
+
 if(x_spd !=0 || y_spd !=0 ){
 	x += x_spd;
 	y += y_spd;

@@ -1,13 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Variables
-can_move = true;
-movspeed = 2;
+movspeed = 2
+global.can_move = true;
 dashspeed = 4;
 image_index = 0;
 globalvar rate_mov;
 globalvar pick_up;
 globalvar x_spd,y_spd;
+x_spd = 0;
+y_spd = 0;
 
 facing = 100000;
 globalvar deletion_id;

@@ -1,5 +1,10 @@
 var is_fullscreen = window_get_fullscreen();
 
+
+while(global.z_cooldown != 0){
+	global.z_cooldown--;
+}
+
 if(keyboard_check_pressed(ord("T"))){
 	if(is_fullscreen){
 		window_set_fullscreen(false);
@@ -11,8 +16,6 @@ if(keyboard_check_pressed(ord("T"))){
 		window_set_fullscreen(true);
 	}
 }
-if(keyboard_check_direct(vk_space)){if(!draw){draw=1;}else{draw=0;}}
 show_debug_message("Player X:{0} Y:{1}",obj_player.x,obj_player.y);
-show_debug_message("TB X:{0} Y:{1}",textbox_width,textbox_height);
 
 
