@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_camera",
+  "%Name":"obj_ghost",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_camera",
+  "name":"obj_ghost",
   "overriddenProperties":[],
   "parent":{
-    "name":"main_controllers",
-    "path":"folders/Objects/main_controllers.yy",
+    "name":"npc",
+    "path":"folders/Objects/npc.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +29,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_ghost",
+    "path":"sprites/spr_ghost/spr_ghost.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_ghost",
+    "path":"sprites/spr_ghost/spr_ghost.yy",
+  },
   "visible":true,
 }
