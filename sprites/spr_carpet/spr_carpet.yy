@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_carpet",
   "bboxMode":0,
-  "bbox_bottom":69,
+  "bbox_bottom":99,
   "bbox_left":0,
-  "bbox_right":114,
+  "bbox_right":144,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -17,7 +17,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":70,
+  "height":100,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"50c4787b-07ed-457a-b540-84ddbea1a7d9","blendMode":0,"displayName":"default","isLocked":false,"name":"50c4787b-07ed-457a-b540-84ddbea1a7d9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":115,
+  "width":145,
 }
