@@ -22,7 +22,6 @@
     {"name":"inst_39D6DB55","path":"rooms/rm_player_room/rm_player_room.yy",},
     {"name":"inst_14ECC95B","path":"rooms/rm_player_room/rm_player_room.yy",},
     {"name":"inst_1D697479","path":"rooms/rm_player_room/rm_player_room.yy",},
-    {"name":"inst_64FA853E","path":"rooms/rm_player_room/rm_player_room.yy",},
     {"name":"inst_53F0D4C3","path":"rooms/rm_player_room/rm_player_room.yy",},
   ],
   "isDnd":false,
@@ -42,7 +41,6 @@
         {"$GMRInstance":"v1","%Name":"inst_387E4AD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_387E4AD5","objectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":1.0,"x":32.0,"y":44.0,},
         {"$GMRInstance":"v1","%Name":"inst_D158450","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D158450","objectId":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":5.875,"x":320.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_39D6DB55","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39D6DB55","objectId":{"name":"obj_fade_in","path":"objects/obj_fade_in/obj_fade_in.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_64FA853E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64FA853E","objectId":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":128.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Furnishing_2","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_F877EE6","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_F877EE6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_clock_1","path":"sprites/spr_clock_1/spr_clock_1.yy",},"x":118.0,"y":36.0,},
