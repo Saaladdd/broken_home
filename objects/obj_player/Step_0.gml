@@ -41,25 +41,7 @@ else{
 	
 }
 // Collision detection
-if(global.can_move){
-	interaction = check_for_interaction();
-	if (interaction != noone){
-		if(array_length(interaction.dialogue) != 0){
-			if(interact_z() && global.display == false){
-				global.text = interaction.dialogue;
-				global.display = true;
-				global.can_move = false;
-			
-			}
-		}
-	}
-}
-player_collision();
-
-	
-
-
-
+col = check_for_interaction();
 
 // Item pickup logic
 for (var i = 0; i < array_length(directions); i++) {
@@ -75,11 +57,14 @@ for (var i = 0; i < array_length(directions); i++) {
 }
 
 // Apply movement
-
-if(x_spd !=0 || y_spd !=0 ){
+show_debug_message(facing);
+show_debug_message(col);
+if(x_spd !=0 || y_spd !=0 ) && col == noone{
 	x += x_spd;
 	y += y_spd;
+	
 }
+	
 
 
 

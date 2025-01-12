@@ -5,4 +5,6 @@ paused = false;
 paused_surf  = -1;
 global.z_cooldown = 0;
 
+globalvar cb_text,cb_node;
+
 

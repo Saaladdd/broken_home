@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_closet_2",
-  "bboxMode":0,
-  "bbox_bottom":81,
+  "bboxMode":2,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":36,
   "bbox_top":0,

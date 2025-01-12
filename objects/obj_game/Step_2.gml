@@ -3,4 +3,6 @@
 with(all){
 	depth = -bbox_bottom;
 	if(instance_exists(obj_textbox)){obj_textbox.depth = -999;}
+	if(instance_exists(obj_tBox)){obj_tBox.depth = -999;}
+	
 }

@@ -1,0 +1,37 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 556,153
+__PrivCrochet_tags: 
+title: Start
+---
+Bob: What would you like?
+Me: Do tell me please.
+-> A burger.
+    Bob: Nice. Enjoy!
+-> A soda.
+    Bob: Yum!
+-> Nothing.
+    Bob: Okay.
+Bob: Thanks for coming!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 911,432
+__PrivCrochet_tags: 
+title: Option A
+---
+Me: Greetings
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 895,-28
+__PrivCrochet_tags: 
+title: Option B
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 351,-91
+__PrivCrochet_tags: 
+title: Vijeth
+---
+Player: Hello!!
+===

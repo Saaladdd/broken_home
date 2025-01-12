@@ -1,1 +1,1 @@
-dialogue = ["Collecting dust. Maybe I should read sometime.."];
+dialogue_node = "player_room_bookshelf";
