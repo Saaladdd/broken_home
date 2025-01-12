@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_chair_3",
   "bboxMode":0,
-  "bbox_bottom":39,
+  "bbox_bottom":43,
   "bbox_left":3,
   "bbox_right":29,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":40,
+  "height":44,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e074046a-573f-480e-866f-b7d3e92b401d","blendMode":0,"displayName":"default","isLocked":false,"name":"e074046a-573f-480e-866f-b7d3e92b401d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
