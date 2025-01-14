@@ -1,5 +1,45 @@
-//Player collision
+function get_facing(){
+	switch(obj_player.facing){
+		case 0:
+			return 0;
+		case 90:
+			return 90;
+		case 180:
+			return -2;
+		case 270:
+			return +2;
+		default:
+			return -1;
+	}
+}
 
+function get_collision(val){
+	if(place_meeting(obj_player.x+x_spd,obj_player.y,val)){
+		x_spd = 0
+		if(place_meeting(obj_player.x,obj_player.y+y_spd,val))
+			y_spd=0;
+		return true;
+	}
+	else if(place_meeting(obj_player.x,obj_player.y+y_spd,val)){
+		y_spd = 0;
+		if(place_meeting(obj_player.x+x_spd,obj_player.y,val))
+			x_spd=0
+		return true;
+	}
+	else
+		return false;
+	
+}
+
+function interact(){
+	face = obj_player.facing;
+	if(face == 90){
+		global.instance_ = instance_place(obj_player.x,obj_player.y-2,obj_environment);
+	}
+	else
+		global.instance_ = noone;
+		
+}
 
 function get_direction(val){
 	switch(val){
@@ -16,53 +56,7 @@ function get_direction(val){
 	}
 }
 
-function check_for_interaction(){
-	switch(obj_player.facing){
-		case 0 :
-			 if (place_meeting(obj_player.x + 2, obj_player.y, obj_environment)) {
-			child_instance = instance_place(obj_player.x + 2, obj_player.y, obj_environment);
-	        if (instance_exists(child_instance)) {
-	                return child_instance; // Return the child instance if facing
-	            
-	        }
-			 }
-		case 45 :
-			 if (place_meeting(obj_player.x + 2, obj_player.y-2, obj_environment)) {
-			child_instance = instance_place(obj_player.x + 2, obj_player.y-2, obj_environment);
-	        if (instance_exists(child_instance)) {
-	                return child_instance; // Return the child instance if facing
-	            
-	        }
-			 }
-		case 90 :
-			 if (place_meeting(obj_player.x , obj_player.y-2, obj_environment)) {
-				child_instance = instance_place(obj_player.x, obj_player.y-2, obj_environment);
-				 if (instance_exists(child_instance)) {
-	                return child_instance; // Return the child instance if facing
-	            
-				 }
-			 }
-		case 180 :
-			 if (place_meeting(obj_player.x - 2, obj_player.y, obj_environment)) {
-			child_instance = instance_place(obj_player.x - 2, obj_player.y, obj_environment);
-	        if (instance_exists(child_instance)) {
-	                return child_instance; // Return the child instance if facing
-	            
-	        }
-			 }
-		case 270 :
-			 if (place_meeting(obj_player.x , obj_player.y+2, obj_environment)) {
-				child_instance = instance_place(obj_player.x, obj_player.y+2, obj_environment);
-				 if (instance_exists(child_instance)) {
-	                return child_instance; // Return the child instance if facing
-	            
-				 }
-			 }
-		default:
-			return noone;
-	}
 
-}
 
 
 	

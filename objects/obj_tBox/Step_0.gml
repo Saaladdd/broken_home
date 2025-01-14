@@ -1,10 +1,11 @@
 var count = ChatterboxGetOptionCount(chatterbox);
 show_debug_message(chatterbox);
-if ChatterboxIsWaiting(chatterbox) and interact_z() {
+if (ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(ord("Z"))){
     // Is Chatterbox presenting the user with options
-    ChatterboxContinue(chatterbox);
+	
+	ChatterboxContinue(chatterbox);
     chatterbox_update();
-} /*else if (count) {
+} else if (count) {
     var _key = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
 
     // Move option_index twice if next option is invalid
@@ -19,8 +20,8 @@ if ChatterboxIsWaiting(chatterbox) and interact_z() {
 
     chatterbox_update();
 }
-*/
-if ChatterboxIsStopped(chatterbox) and interact_z() {
+
+if ChatterboxIsStopped(chatterbox) and keyboard_check_pressed(ord("Z")) {
  
     instance_destroy();
 	global.can_move = true;

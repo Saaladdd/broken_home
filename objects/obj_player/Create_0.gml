@@ -8,12 +8,15 @@ image_index = 0;
 globalvar rate_mov;
 globalvar pick_up;
 globalvar x_spd,y_spd;
+globalvar col;
 x_spd = 0;
 y_spd = 0;
 
 facing = 100000;
 globalvar deletion_id;
+
 deletion_id =-1;
+col = false;
 directions = [
     [8, 8],     // bottom-right
     [-8, -8],   // top-left

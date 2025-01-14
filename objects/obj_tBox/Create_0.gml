@@ -1,5 +1,4 @@
 globalvar chatterbox;
-
 ChatterboxLoadFromFile("test2.yarn");
 chatterbox = ChatterboxCreate();
 

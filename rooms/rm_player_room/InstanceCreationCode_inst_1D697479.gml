@@ -1,1 +1,1 @@
-dialogue_node = "player_room_bookshelf";
+node_val = "bookshelf_player_room";

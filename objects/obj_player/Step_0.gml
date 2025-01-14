@@ -9,6 +9,7 @@ y_spd=0;
 
 // Set movement speed (dash or normal)
 if((up || down || left || right) && global.can_move){
+	image_speed = 1;
 	if (keyboard_check(vk_lshift)) {
 	    rate_mov = dashspeed; // Dash speed
 	    image_speed = 2;      // Faster animation during dash
@@ -21,7 +22,7 @@ if((up || down || left || right) && global.can_move){
 	x_spd = rate_mov * (right - left);
 	y_spd = rate_mov * (down - up);
 	facing = point_direction(x,y,x+x_spd,y+y_spd);
-	
+	col = get_collision(obj_environment);
 
 	// Animation control
 	if (y_spd < 0) {
@@ -41,7 +42,16 @@ else{
 	
 }
 // Collision detection
-col = check_for_interaction();
+if col {
+	interact();
+	if(interact_z() and global.can_move == true){
+		global.can_move = false;
+		cb_node = global.instance_.node_val;
+		instance_create_depth(0,0,-99,obj_tBox);
+	}
+}
+
+
 
 // Item pickup logic
 for (var i = 0; i < array_length(directions); i++) {
@@ -57,13 +67,13 @@ for (var i = 0; i < array_length(directions); i++) {
 }
 
 // Apply movement
-show_debug_message(facing);
-show_debug_message(col);
-if(x_spd !=0 || y_spd !=0 ) && col == noone{
+
+if(x_spd !=0 || y_spd !=0 ){
 	x += x_spd;
 	y += y_spd;
 	
 }
+else{image_speed=0;}
 	
 
 

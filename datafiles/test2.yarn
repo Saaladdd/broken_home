@@ -1,13 +1,13 @@
 #__PrivCrochet_version:1
 __PrivCrochet_colorID: 0
-__PrivCrochet_position: 556,153
+__PrivCrochet_position: 211,161
 __PrivCrochet_tags: 
 title: Start
 ---
 Bob: What would you like?
-Me: Do tell me please.
 -> A burger.
     Bob: Nice. Enjoy!
+    <<jump NodeB>>
 -> A soda.
     Bob: Yum!
 -> Nothing.
@@ -34,4 +34,19 @@ __PrivCrochet_tags:
 title: Vijeth
 ---
 Player: Hello!!
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 517,212
+__PrivCrochet_tags: 
+title: NodeB
+---
+Empty Text
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1269,263
+__PrivCrochet_tags: 
+title: bookshelf_player_room
+---
+Player: "Why the book so crusty"
+Player: "I wanna jack off!"
 ===

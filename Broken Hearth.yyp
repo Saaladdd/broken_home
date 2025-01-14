@@ -77,6 +77,7 @@
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"obj_player_control","path":"objects/obj_player_control/obj_player_control.yy",},},
+    {"id":{"name":"obj_player_room_chair_1","path":"objects/obj_player_room_chair_1/obj_player_room_chair_1.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"obj_roomswitch","path":"objects/obj_roomswitch/obj_roomswitch.yy",},},
