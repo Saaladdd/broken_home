@@ -1,7 +1,7 @@
 function wrap_options(val,_min,_max){
 	if val > _max return _min;
 	else if val < _min return _max;
-	else return val
+	return val
 }
 
 function draw_rectangle_center(_x, _y, _width, _height, _outline, _colour, _alpha) {
@@ -17,14 +17,12 @@ function draw_rectangle_center(_x, _y, _width, _height, _outline, _colour, _alph
     draw_set_alpha(old_alpha);
 }
 
-function background_set_index(_arr) {
-    var lay_id = layer_get_id("Background");
-    var back_id = layer_background_get_id(lay_id);
-
-    layer_background_index(back_id, _arr[0]);
+function get_main_game_progress(){
+	return global.game_progress[0][0]
 }
 
 function chatterbox_update() {
     cb_node = ChatterboxGetCurrent(chatterbox);
-    cb_text = ChatterboxGetContent(chatterbox,0);
+	cb_speaker = ChatterboxGetContentSpeaker(chatterbox,0);
+    cb_text = ChatterboxGetContentSpeech(chatterbox,0);
 }	

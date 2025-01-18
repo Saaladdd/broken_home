@@ -195,6 +195,7 @@
     {"id":{"name":"interact_key","path":"scripts/interact_key/interact_key.yy",},},
     {"id":{"name":"IsChatterbox","path":"scripts/IsChatterbox/IsChatterbox.yy",},},
     {"id":{"name":"player_collision","path":"scripts/player_collision/player_collision.yy",},},
+    {"id":{"name":"scr_save_functions","path":"scripts/scr_save_functions/scr_save_functions.yy",},},
     {"id":{"name":"scr_textbox","path":"scripts/scr_textbox/scr_textbox.yy",},},
     {"id":{"name":"wave","path":"scripts/wave/wave.yy",},},
     {"id":{"name":"player_spr_2","path":"sprites/player_spr_2/player_spr_2.yy",},},

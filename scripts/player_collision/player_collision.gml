@@ -1,15 +1,15 @@
 function get_facing(){
 	switch(obj_player.facing){
 		case 0:
-			return 0;
+			return +2;
 		case 90:
-			return 90;
+			return -2;
 		case 180:
 			return -2;
 		case 270:
 			return +2;
 		default:
-			return -1;
+			return 0;
 	}
 }
 
@@ -31,10 +31,13 @@ function get_collision(val){
 	
 }
 
-function interact(){
+function interact(val){
 	face = obj_player.facing;
-	if(face == 90){
-		global.instance_ = instance_place(obj_player.x,obj_player.y-2,obj_environment);
+	if(face == 90 or face == 270){
+		global.instance_ = instance_place(obj_player.x,obj_player.y+get_facing(),val);
+	}
+	else if(face == 0 or face == 180){
+		global.instance_ = instance_place(obj_player.x+get_facing(),obj_player.y,val);
 	}
 	else
 		global.instance_ = noone;

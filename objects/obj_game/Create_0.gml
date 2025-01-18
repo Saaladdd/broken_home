@@ -5,7 +5,8 @@ paused = false;
 paused_surf  = -1;
 global.z_cooldown = 0;
 global.instance_ = noone;
+global.game_progress[0][0] = 1;
 
-globalvar cb_text,cb_node;
+globalvar cb_text,cb_node,cb_speaker;
 
 

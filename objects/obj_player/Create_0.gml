@@ -58,3 +58,4 @@ function bound(index,bound_array){
 }
 //default animations
 set_animation_frame("idle");
+
