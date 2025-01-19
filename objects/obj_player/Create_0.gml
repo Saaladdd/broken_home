@@ -1,22 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Variables
-movspeed = 2
 global.can_move = true;
-dashspeed = 2.8;
-image_index = 0;
+
 globalvar rate_mov;
 globalvar pick_up;
 globalvar x_spd,y_spd;
 globalvar col;
-x_spd = 0;
-y_spd = 0;
-
-facing = 100000;
 globalvar deletion_id;
 
+movspeed = 2;
+dashspeed = 3;
+facing = -1;
+
+image_index = 0;
+
+x_spd = 0;
+y_spd = 0;
 deletion_id =-1;
 col = false;
+pick_up = false;
+
 directions = [
     [8, 8],     // bottom-right
     [-8, -8],   // top-left
@@ -27,7 +31,7 @@ directions = [
     [0, 8],     // bottom
     [-8, 0]  
 ];
-pick_up = false;
+
 
 
 //All animation frames structure

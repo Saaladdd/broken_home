@@ -33,3 +33,12 @@ You feel a certain warmth.
         Save succesful!
     ->Exit
 ===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 935,-1
+__PrivCrochet_tags: 
+title: letter_1
+---
+Recieved a letter.
+The handwritting seems familiar..
+<<add()>>
+===

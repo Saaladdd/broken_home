@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_barrier",
-  "eventList":[],
+  "%Name":"itm_letter",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_barrier",
+  "name":"itm_letter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"key_items",
+    "path":"folders/Objects/all_items/key_items.yy",
   },
   "parentObjectId":{
-    "name":"obj_environment",
-    "path":"objects/obj_environment/obj_environment.yy",
+    "name":"obj_items",
+    "path":"objects/obj_items/obj_items.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barrier",
-    "path":"sprites/spr_barrier/spr_barrier.yy",
+    "name":"test",
+    "path":"sprites/test/test.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
