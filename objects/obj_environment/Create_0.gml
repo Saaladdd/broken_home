@@ -1,3 +1,2 @@
-dialogue = [];
-
+node_val = noone;
 	

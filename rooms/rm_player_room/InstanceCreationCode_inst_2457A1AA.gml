@@ -1,0 +1,1 @@
+if(instance_exists(obj_player)>1){instance_destroy(obj_player);}

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_chair_3",
-  "bboxMode":0,
-  "bbox_bottom":43,
+  "bboxMode":2,
+  "bbox_bottom":27,
   "bbox_left":3,
-  "bbox_right":29,
+  "bbox_right":28,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

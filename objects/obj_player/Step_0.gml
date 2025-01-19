@@ -21,9 +21,8 @@ if((up || down || left || right) && global.can_move){
 	
 	x_spd = rate_mov * (right - left);
 	y_spd = rate_mov * (down - up);
+	
 	facing = point_direction(x,y,x+x_spd,y+y_spd);
-	col = get_collision(obj_environment);
-
 	// Animation control
 	if (y_spd < 0) {
 	    set_animation_frame("up");
@@ -34,6 +33,7 @@ if((up || down || left || right) && global.can_move){
 	} else if (x_spd < 0) {
 	    set_animation_frame("left");
 	}
+	col = get_collision(obj_environment);
 	
 }
 //Incase the player is not giving any direction input
@@ -43,11 +43,13 @@ else{
 }
 // Collision detection
 if col {
-	interact();
-	if(interact_z() and global.can_move == true){
-		global.can_move = false;
-		cb_node = global.instance_.node_val;
-		instance_create_depth(0,0,-99,obj_tBox);
+	interact(obj_environment);
+	if((interact_z() and global.can_move == true) and instance_exists(global.instance_)){
+		if global.instance_.node_val != noone{
+			global.can_move = false;
+			cb_node = global.instance_.node_val;
+			instance_create_depth(0,0,-99,obj_tBox);
+		}
 	}
 }
 
@@ -74,6 +76,9 @@ if(x_spd !=0 || y_spd !=0 ){
 	
 }
 else{image_speed=0;}
+if(keyboard_check_pressed(ord("L"))){
+	load_game();
+}
 	
 
 

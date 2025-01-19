@@ -1,52 +1,35 @@
 #__PrivCrochet_version:1
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 211,161
-__PrivCrochet_tags: 
-title: Start
----
-Bob: What would you like?
--> A burger.
-    Bob: Nice. Enjoy!
-    <<jump NodeB>>
--> A soda.
-    Bob: Yum!
--> Nothing.
-    Bob: Okay.
-Bob: Thanks for coming!
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 911,432
-__PrivCrochet_tags: 
-title: Option A
----
-Me: Greetings
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 895,-28
-__PrivCrochet_tags: 
-title: Option B
----
-Empty Text
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 351,-91
-__PrivCrochet_tags: 
-title: Vijeth
----
-Player: Hello!!
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 517,212
-__PrivCrochet_tags: 
-title: NodeB
----
-Empty Text
-===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1269,263
+__PrivCrochet_colorID: 8
+__PrivCrochet_position: 1293,-101
 __PrivCrochet_tags: 
 title: bookshelf_player_room
 ---
-Player: "Why the book so crusty"
-Player: "I wanna jack off!"
+The books are catching dust.
+I should probably clean them.
+    ->Clean them
+        "You clean the bookshelf."
+    ->Leave it be
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1609,165
+__PrivCrochet_tags: 
+title: bed_player_room
+---
+<<set $gl = game_level()>>
+<<if $gl == 1>>
+    Not the best time to sleep I should go <b>outside</b> my room.
+<<elseif $gl ==2>>
+    Something seems off.
+<<endif>>
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 935,-1
+__PrivCrochet_tags: 
+title: Save
+---
+You feel a certain warmth.
+    ->Save
+        <<save()>>
+        Save succesful!
+    ->Exit
 ===

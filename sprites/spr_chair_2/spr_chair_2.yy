@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_chair_2",
-  "bboxMode":0,
-  "bbox_bottom":35,
+  "bboxMode":2,
+  "bbox_bottom":25,
   "bbox_left":6,
   "bbox_right":23,
   "bbox_top":2,
