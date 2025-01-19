@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Broken Hearth",
-    "path":"Broken Hearth.yyp",
+    "name":"spr_playerroom",
+    "path":"folders/Sprites/spr_playerroom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
