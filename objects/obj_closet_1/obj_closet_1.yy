@@ -9,8 +9,8 @@
   "name":"obj_closet_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"things",
-    "path":"folders/Objects/things.yy",
+    "name":"player_rm",
+    "path":"folders/Objects/environment/player_rm.yy",
   },
   "parentObjectId":{
     "name":"obj_environment",

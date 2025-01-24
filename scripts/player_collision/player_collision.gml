@@ -35,6 +35,7 @@ function interact(val){
 	face = obj_player.facing;
 	if(face == 90 or face == 270){
 		global.instance_ = instance_place(obj_player.x,obj_player.y+get_facing(),val);
+		
 	}
 	else if(face == 0 or face == 180){
 		global.instance_ = instance_place(obj_player.x+get_facing(),obj_player.y,val);
@@ -42,7 +43,9 @@ function interact(val){
 	else
 		global.instance_ = noone;
 		
+		
 }
+
 
 function get_direction(val){
 	switch(val){

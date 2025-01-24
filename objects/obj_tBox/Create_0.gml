@@ -1,7 +1,10 @@
 globalvar chatterbox;
 ChatterboxLoadFromFile("test2.yarn");
+
 ChatterboxAddFunction("game_level",get_main_game_progress);
+ChatterboxAddFunction("add",add_to_inv);
 ChatterboxAddFunction("save",save_game);
+
 chatterbox = ChatterboxCreate();
 
 ChatterboxJump(chatterbox,cb_node,"test2.yarn");

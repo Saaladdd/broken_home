@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_collision",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_collision",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bounds",
-    "path":"sprites/spr_bounds/spr_bounds.yy",
+    "name":"spr_barrier",
+    "path":"sprites/spr_barrier/spr_barrier.yy",
   },
   "spriteMaskId":null,
   "visible":false,
