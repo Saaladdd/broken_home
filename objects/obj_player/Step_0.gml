@@ -61,6 +61,8 @@ if col {
 				
 			
 			}
+			else if global.instance_.is_npc == true{
+				global.instance_.facing = war
 		}
 	
 
@@ -79,10 +81,17 @@ else{image_speed=0;}
 if(keyboard_check_pressed(ord("L"))){
 	load_game();
 }
-	
+
+if(keyboard_check_pressed(ord("Y"))){
+	save_room();
+}
+
+if(keyboard_check_pressed(ord("U"))){
+	load_room();
+}
 
 
-
+show_debug_message(global.room_data);
 // Debug output
 
 

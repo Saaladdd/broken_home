@@ -1,8 +1,8 @@
 function add_to_inv(){
-	val = global.instance_;
-	if val.is_key_item == true
-		array_push(global.player_inventory.key_items,val.item_name);
+	var _val = global.instance_;
+	if _val.item.is_key_item == true
+		array_push(global.player_inventory.key_items,_val.item);
 	else
-		array_push(global.player_inventory.items,val.item_name);
-	instance_destroy(val);
+		array_push(global.player_inventory.items,_val.item);
+	instance_destroy(_val);
 }

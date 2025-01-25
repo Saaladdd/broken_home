@@ -3,9 +3,9 @@
 
 // Inherit the parent event
 event_inherited();
-is_key_item = true;
-item_name = "Letter";
-item_description = "Letter";
+
+item = global.item_list.letter_1;
+
 node_val = "letter_1";
 
 
