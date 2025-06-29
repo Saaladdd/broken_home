@@ -9,4 +9,3 @@ global.save_data = {
 	inv : {},
 	room_save :{}
 }
-

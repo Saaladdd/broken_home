@@ -61,8 +61,9 @@ if col {
 				
 			
 			}
-			else if global.instance_.is_npc == true{
+			/*else if global.instance_.is_npc == true{
 				global.instance_.facing = war
+			*/
 		}
 	
 
@@ -90,8 +91,6 @@ if(keyboard_check_pressed(ord("U"))){
 	load_room();
 }
 
-
-show_debug_message(global.room_data);
 // Debug output
 
 

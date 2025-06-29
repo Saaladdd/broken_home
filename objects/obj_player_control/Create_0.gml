@@ -8,6 +8,3 @@ global.player_status = {
 	player_wp :100
 };
 
-global.room_data = {
-	rm_player_room_data: {}
-}

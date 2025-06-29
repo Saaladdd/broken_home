@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Broken Hearth",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -45,6 +45,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"chatterbox_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"chatterbox_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"test.yarn","CopyToMask":-1,"filePath":"datafiles","name":"test.yarn","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -53,7 +54,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Broken Hearth",
   "resources":[
@@ -212,6 +213,7 @@
     {"id":{"name":"spr_bed_2","path":"sprites/spr_bed_2/spr_bed_2.yy",},},
     {"id":{"name":"spr_bed_side_table_1","path":"sprites/spr_bed_side_table_1/spr_bed_side_table_1.yy",},},
     {"id":{"name":"spr_bed_side_table_2","path":"sprites/spr_bed_side_table_2/spr_bed_side_table_2.yy",},},
+    {"id":{"name":"spr_blanket","path":"sprites/spr_blanket/spr_blanket.yy",},},
     {"id":{"name":"spr_bookshelf_1","path":"sprites/spr_bookshelf_1/spr_bookshelf_1.yy",},},
     {"id":{"name":"spr_bookshelf_2","path":"sprites/spr_bookshelf_2/spr_bookshelf_2.yy",},},
     {"id":{"name":"spr_calendar_1","path":"sprites/spr_calendar_1/spr_calendar_1.yy",},},
@@ -263,11 +265,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_player_room","path":"rooms/rm_player_room/rm_player_room.yy",},},
+    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
     {"roomId":{"name":"room_camera_test","path":"rooms/room_camera_test/room_camera_test.yy",},},
-    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

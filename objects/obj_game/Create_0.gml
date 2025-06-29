@@ -9,6 +9,8 @@ paused_surf  = -1;
 global.z_cooldown = 0;
 global.instance_ = noone;
 global.game_progress[0][0] = 1;
+global.room_data = [];
+
 
 
 
