@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_closer_3",
-  "bboxMode":0,
-  "bbox_bottom":67,
+  "bboxMode":2,
+  "bbox_bottom":45,
   "bbox_left":0,
-  "bbox_right":47,
+  "bbox_right":46,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

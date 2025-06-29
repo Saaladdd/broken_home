@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_table_2",
-  "bboxMode":0,
-  "bbox_bottom":56,
+  "bboxMode":2,
+  "bbox_bottom":33,
   "bbox_left":0,
-  "bbox_right":64,
+  "bbox_right":62,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
