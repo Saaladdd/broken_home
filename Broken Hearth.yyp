@@ -215,6 +215,7 @@
     {"id":{"name":"spr_bed_2","path":"sprites/spr_bed_2/spr_bed_2.yy",},},
     {"id":{"name":"spr_bed_side_table_1","path":"sprites/spr_bed_side_table_1/spr_bed_side_table_1.yy",},},
     {"id":{"name":"spr_bed_side_table_2","path":"sprites/spr_bed_side_table_2/spr_bed_side_table_2.yy",},},
+    {"id":{"name":"spr_blanket","path":"sprites/spr_blanket/spr_blanket.yy",},},
     {"id":{"name":"spr_bookshelf_1","path":"sprites/spr_bookshelf_1/spr_bookshelf_1.yy",},},
     {"id":{"name":"spr_bookshelf_2","path":"sprites/spr_bookshelf_2/spr_bookshelf_2.yy",},},
     {"id":{"name":"spr_calendar_1","path":"sprites/spr_calendar_1/spr_calendar_1.yy",},},
@@ -268,11 +269,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_player_room","path":"rooms/rm_player_room/rm_player_room.yy",},},
+    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
     {"roomId":{"name":"room_camera_test","path":"rooms/room_camera_test/room_camera_test.yy",},},
-    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

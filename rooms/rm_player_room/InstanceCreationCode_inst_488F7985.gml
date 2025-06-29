@@ -1,3 +1,3 @@
-targetRoom=rm_test_room;
-targetX=1;
-targetY=1;
+target_room = rm_sister_room;
+target_x = 75;
+target_y = 260;
