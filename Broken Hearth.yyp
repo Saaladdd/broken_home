@@ -265,6 +265,7 @@
     {"id":{"name":"spr_side_walls","path":"sprites/spr_side_walls/spr_side_walls.yy",},},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},},
     {"id":{"name":"spr_table_2","path":"sprites/spr_table_2/spr_table_2.yy",},},
+    {"id":{"name":"spr_table_corridor","path":"sprites/spr_table_corridor/spr_table_corridor.yy",},},
     {"id":{"name":"spr_wall_1","path":"sprites/spr_wall_1/spr_wall_1.yy",},},
     {"id":{"name":"spr_wall_corner_1","path":"sprites/spr_wall_corner_1/spr_wall_corner_1.yy",},},
     {"id":{"name":"spr_wall_corner_2","path":"sprites/spr_wall_corner_2/spr_wall_corner_2.yy",},},
