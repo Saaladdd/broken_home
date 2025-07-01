@@ -1,7 +1,7 @@
-#__PrivCrochet_version:1
-__PrivCrochet_colorID: 8
-__PrivCrochet_position: 1293,-101
-__PrivCrochet_tags: 
+#PrivCrochet_version:1
+PrivCrochet_colorID: 8
+PrivCrochet_position: 1293,-101
+PrivCrochet_tags: 
 title: bookshelf_player_room
 ---
 The books are catching dust.
@@ -10,9 +10,9 @@ I should probably clean them.
         "You clean the bookshelf."
     ->Leave it be
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 1609,165
-__PrivCrochet_tags: 
+PrivCrochet_colorID: 0
+PrivCrochet_position: 1609,165
+PrivCrochet_tags: 
 title: bed_player_room
 ---
 <<set $gl = game_level()>>
@@ -22,9 +22,9 @@ title: bed_player_room
     Something seems off.
 <<endif>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 935,-1
-__PrivCrochet_tags: 
+PrivCrochet_colorID: 0
+PrivCrochet_position: 935,-1
+PrivCrochet_tags: 
 title: Save
 ---
 You feel a certain warmth.
@@ -33,19 +33,18 @@ You feel a certain warmth.
         Save succesful!
     ->Exit
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 935,-1
-__PrivCrochet_tags: 
+PrivCrochet_colorID: 0
+PrivCrochet_position: 935,-1
+PrivCrochet_tags: 
 title: letter_1
 ---
 Recieved a letter.
 The handwritting seems familiar..
 <<add()>>
 ===
-__PrivCrochet_colorID: 0
-__PrivCrochet_position: 935,-1
-__PrivCrochet_tags: 
+PrivCrochet_colorID: 0
+PrivCrochet_position: 935,-1
+PrivCrochet_tags: 
 title: poster_sister_room
 ---
 What even is this...
-===
