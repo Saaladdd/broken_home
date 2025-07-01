@@ -11,28 +11,19 @@ function save_room(){
 		
 		
 	}
-	 if (is_undefined(global.room_data) || is_array(global.room_data)) {
-        global.room_data = {};
-		
-    }
 	global.room_data[$ room_get_name(room)] = room_items;
 
 
 	
-	show_message(global.room_data);
 }
 
 function load_room(){
-	if (is_undefined(global.room_data) || is_array(global.room_data)) {
-        global.room_data = {};
-    }
 	var room_name = room_get_name(room);
 	if (!variable_struct_exists(global.room_data, room_name)) {
         exit;
 	}
 	
 	room_items = global.room_data[$ room_name];
-	if array_length(room_items) ==0 {exit;}
 	{instance_destroy(obj_items);}
 	for(var i = 0; i < array_length(room_items); i++ ){
 		var _inst = room_items[i];
@@ -47,9 +38,6 @@ function load_room(){
 function save_game(){
 	//Game state
 	save_room();
-	if (is_undefined(global.room_data) || is_array(global.room_data)) {
-        global.room_data = {};
-    }
 	
 	//Player save Data
 	global.save_data.player_room = room;
@@ -104,14 +92,12 @@ function load_game(){
 	var load_array = json_parse(json);
 	global.game_progress = array_get(load_array,0);
 	global.save_data = array_get(load_array,1);
-	var raw_room_data = array_get(load_array, 2);
-    global.room_data = {};                        
+	var raw_room_data = array_get(load_array, 2);                        
     for (var i = 0; i < array_length(raw_room_data); i += 2) {
         var key = raw_room_data[i];               
         var val = raw_room_data[i + 1];           
         global.room_data[$ key] = val;              
     } 
-	show_message(global.room_data);
 	
 	obj_player.x = global.save_data.player_x;
 	obj_player.y = global.save_data.player_y;
