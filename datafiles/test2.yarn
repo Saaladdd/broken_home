@@ -4,7 +4,7 @@ PrivCrochet_position: 1293,-101
 PrivCrochet_tags: 
 title: bookshelf_player_room
 ---
-The books are catching dust.
+The books are catching dust. 
 I should probably clean them.
     ->Clean them
         "You clean the bookshelf."
@@ -17,7 +17,7 @@ title: bed_player_room
 ---
 <<set $gl = game_level()>>
 <<if $gl == 1>>
-    Not the best time to sleep I should go <b>outside</b> my room.
+    Not the best time to sleep I should go [pulse]outside[/pulse] my room.
 <<elseif $gl ==2>>
     Something seems off.
 <<endif>>
