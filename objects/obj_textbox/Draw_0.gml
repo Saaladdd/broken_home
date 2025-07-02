@@ -2,26 +2,18 @@ textbox_x = camera_get_view_x(global.camera) + (cameraWidth - textbox_width) / 2
 textbox_y = camera_get_view_y(global.camera) + (cameraHeight - textbox_height);
 var textbox_spr_w = sprite_get_width(spr_tb);
 var textbox_spr_h = sprite_get_height(spr_tb);
-draw_set_font(Font2);
+
 //show_message(chatterbox);
 if IsChatterbox(chatterbox) and cb_text != undefined
 {
-	if (draw_char < string_length(cb_text)) {
-		if(interact_z()){
-			draw_char = string_length(cb_text);
-		}
 			
-        draw_char += text_speed;
-        draw_char = clamp(draw_char, 0,string_length(cb_text));
-    }
-		
-	
-	text_to_draw = string_copy(cb_text,1,draw_char);
+	var text_to_draw = cb_text;
 	draw_sprite_ext(spr_tb, 1, textbox_x, textbox_y, textbox_width / textbox_spr_w, textbox_height / textbox_spr_h, 0, c_white, 1);
-    draw_text_ext(textbox_x + border, textbox_y + border, text_to_draw, line_sep, line_width);
+	scribble("[Font2]"+text_to_draw).wrap(textbox_width-border*2,textbox_height-border*2,false).draw(textbox_x+border,textbox_y+border,typist);
+	
 
     //If there are options, draw them to the center of the screen
-
+	
 	
     if (ChatterboxGetOptionCount(chatterbox))
     {
@@ -41,7 +33,7 @@ if IsChatterbox(chatterbox) and cb_text != undefined
                 var _icon = "";
                 if (option_index == i) _icon = "->";
 				var _option = ChatterboxGetOption(chatterbox,i);
-                draw_text(_xx, _yy, _icon + _option);
+                scribble(_icon + _option).draw(_xx,_yy);
 				
             }
         }
