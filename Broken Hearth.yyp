@@ -102,7 +102,7 @@
     {"id":{"name":"obj_sis_poster","path":"objects/obj_sis_poster/obj_sis_poster.yy",},},
     {"id":{"name":"obj_table_2","path":"objects/obj_table_2/obj_table_2.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
-    {"id":{"name":"obj_tBox","path":"objects/obj_tBox/obj_tBox.yy",},},
+    {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"rm_corridor_1","path":"rooms/rm_corridor_1/rm_corridor_1.yy",},},
     {"id":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"id":{"name":"rm_player_room","path":"rooms/rm_player_room/rm_player_room.yy",},},

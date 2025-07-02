@@ -50,14 +50,14 @@ if col {
 			if global.instance_.node_val != "None" and global.instance_.is_item == false{
 				global.can_move = false;
 				cb_node = global.instance_.node_val;
-				instance_create_depth(0,0,-99,obj_tBox);
+				instance_create_depth(0,0,-99,obj_textbox);
 			}
 			
 			
 			else if global.instance_.is_item == true{
 				global.can_move = false;
 				cb_node = global.instance_.node_val;
-				instance_create_depth(0,0,-99,obj_tBox);
+				instance_create_depth(0,0,-99,obj_textbox);
 				
 			
 			}
