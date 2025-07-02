@@ -1,3 +1,3 @@
 target_room = rm_corridor_1;
-target_x = 225;
-target_y = 98;
+target_x = 224;
+target_y = 80;
