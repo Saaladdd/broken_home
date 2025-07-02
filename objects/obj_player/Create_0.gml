@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Variables
-global.can_move = true;
-
 globalvar rate_mov;
 globalvar pick_up;
 globalvar x_spd,y_spd;
