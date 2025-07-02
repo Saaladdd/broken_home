@@ -292,8 +292,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_player_room","path":"rooms/rm_player_room/rm_player_room.yy",},},
-    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
     {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
+    {"roomId":{"name":"rm_sister_room","path":"rooms/rm_sister_room/rm_sister_room.yy",},},
     {"roomId":{"name":"rm_test_room","path":"rooms/rm_test_room/rm_test_room.yy",},},
     {"roomId":{"name":"room_camera_test","path":"rooms/room_camera_test/room_camera_test.yy",},},
     {"roomId":{"name":"rm_corridor_1","path":"rooms/rm_corridor_1/rm_corridor_1.yy",},},

@@ -3,6 +3,8 @@ globalvar windowHeight;
 globalvar cameraHeight;
 globalvar cameraWidth;
 globalvar cameraScale;
+var a=1;
+var fade_speed;
 
 target = obj_player;
 cameraHeight = 300;
