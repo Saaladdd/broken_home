@@ -1,4 +1,5 @@
 fadeout=0;
+global.can_move=false;
 
 if(a=1)
 {
@@ -6,6 +7,7 @@ if(a=1)
 	obj_player.x = target_x;
 	obj_player.y = target_y;
 	fadeout=1;
+	global.can_move=true;
 }	
 
 //if(a=1)
