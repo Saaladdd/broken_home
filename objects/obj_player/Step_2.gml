@@ -8,3 +8,4 @@ var environment_obj = instance_position(facing_x,facing_y,obj_environment);
 if(environment_obj != noone){
 	show_debug_message("Yep proper");	
 }
+
