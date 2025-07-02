@@ -257,6 +257,7 @@
     {"id":{"name":"spr_mirror","path":"sprites/spr_mirror/spr_mirror.yy",},},
     {"id":{"name":"spr_painting_1","path":"sprites/spr_painting_1/spr_painting_1.yy",},},
     {"id":{"name":"spr_painting_2","path":"sprites/spr_painting_2/spr_painting_2.yy",},},
+    {"id":{"name":"spr_photograph_1","path":"sprites/spr_photograph_1/spr_photograph_1.yy",},},
     {"id":{"name":"spr_player_model_3","path":"sprites/spr_player_model_3/spr_player_model_3.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_playermodel1","path":"sprites/spr_playermodel1/spr_playermodel1.yy",},},
