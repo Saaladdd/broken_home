@@ -1,1 +1,0 @@
-node_val = "bed_player_room";
