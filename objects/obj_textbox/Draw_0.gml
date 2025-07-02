@@ -9,7 +9,7 @@ if IsChatterbox(chatterbox) and cb_text != undefined
 			
 	var text_to_draw = cb_text;
 	draw_sprite_ext(spr_tb, 1, textbox_x, textbox_y, textbox_width / textbox_spr_w, textbox_height / textbox_spr_h, 0, c_white, 1);
-	scribble("[Font2]"+text_to_draw).wrap(textbox_width-border*2,textbox_height-border*2,false).draw(textbox_x+border,textbox_y+border,typist);
+	scribble(text_to_draw).wrap(line_width,line_height,false).draw(textbox_x+border,textbox_y+border,typist);
 	
 
     //If there are options, draw them to the center of the screen

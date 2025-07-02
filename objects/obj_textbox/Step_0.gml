@@ -2,6 +2,7 @@ var count = ChatterboxGetOptionCount(chatterbox);
 show_debug_message(chatterbox);
 
 if(interact_z()){
+		
 		typist.skip();
 }
 
