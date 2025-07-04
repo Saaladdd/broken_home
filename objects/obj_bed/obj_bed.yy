@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bed_1",
-    "path":"sprites/spr_bed_1/spr_bed_1.yy",
+    "name":"spr_bed_3",
+    "path":"sprites/spr_bed_3/spr_bed_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

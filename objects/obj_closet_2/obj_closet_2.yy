@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_closet_2",
-    "path":"sprites/spr_closet_2/spr_closet_2.yy",
+    "name":"spr_closet_6",
+    "path":"sprites/spr_closet_6/spr_closet_6.yy",
   },
   "spriteMaskId":null,
   "visible":true,
