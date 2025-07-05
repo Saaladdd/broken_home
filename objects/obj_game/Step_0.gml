@@ -16,6 +16,6 @@ if(keyboard_check_pressed(ord("T"))){
 		window_set_fullscreen(true);
 	}
 }
-show_debug_message("Player X:{0} Y:{1}",obj_player.x,obj_player.y);
+//show_debug_message("Player X:{0} Y:{1}",obj_player.x,obj_player.y);
 
 

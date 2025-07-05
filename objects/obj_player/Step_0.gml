@@ -47,20 +47,14 @@ if col {
 	interact(obj_collision); 
 		if((interact_z() and global.can_move == true) and instance_exists(global.instance_)){
 			
-			if global.instance_.node_val != "None" and global.instance_.is_item == false{
+			if global.instance_.node_val != "None"{
 				global.can_move = false;
 				cb_node = global.instance_.node_val;
 				instance_create_depth(0,0,-99,obj_textbox);
 			}
 			
 			
-			else if global.instance_.is_item == true{
-				global.can_move = false;
-				cb_node = global.instance_.node_val;
-				instance_create_depth(0,0,-99,obj_textbox);
-				
 			
-			}
 			/*else if global.instance_.is_npc == true{
 				global.instance_.facing = war
 			*/

@@ -1,10 +1,7 @@
 var count = ChatterboxGetOptionCount(chatterbox);
 show_debug_message(chatterbox);
 
-if(interact_z()){
-		
-		typist.skip();
-}
+
 
 if (ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(ord("Z"))){
     // Is Chatterbox presenting the user with options
@@ -25,6 +22,12 @@ if (ChatterboxIsWaiting(chatterbox) and keyboard_check_pressed(ord("Z"))){
 
     chatterbox_update();
 }
+
+//if(interact_z()){
+		
+//		typist.skip();
+//}
+
 
 if ChatterboxIsStopped(chatterbox) and keyboard_check_pressed(ord("Z")) {
  

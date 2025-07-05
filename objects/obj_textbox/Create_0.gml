@@ -7,7 +7,7 @@ ChatterboxAddFunction("save",save_game);
 
 chatterbox = ChatterboxCreate();
 typist = scribble_typist();
-typist.in(1,1);
+typist.in(0.5,0);
 scribble_font_set_default("Font2");
 
 ChatterboxJump(chatterbox,cb_node,"test2.yarn");

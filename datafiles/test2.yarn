@@ -1,7 +1,9 @@
+#__PrivCrochet_version:1
 #PrivCrochet_version:1
-PrivCrochet_colorID: 8
-PrivCrochet_position: 1293,-101
-PrivCrochet_tags: 
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 506,-432
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
 title: bookshelf_player_room
 ---
 The books are catching dust. 
@@ -10,9 +12,10 @@ I should probably clean them.
         "You clean the bookshelf."
     ->Leave it be
 ===
-PrivCrochet_colorID: 0
-PrivCrochet_position: 1609,165
-PrivCrochet_tags: 
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1017,-204
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
 title: bed_player_room
 ---
 <<set $gl = game_level()>>
@@ -22,9 +25,10 @@ title: bed_player_room
     Something seems off.
 <<endif>>
 ===
-PrivCrochet_colorID: 0
-PrivCrochet_position: 935,-1
-PrivCrochet_tags: 
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1680,-12
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
 title: Save
 ---
 You feel a certain warmth.
@@ -33,18 +37,40 @@ You feel a certain warmth.
         Save succesful!
     ->Exit
 ===
-PrivCrochet_colorID: 0
-PrivCrochet_position: 935,-1
-PrivCrochet_tags: 
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 618,-31
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
 title: letter_1
 ---
 Recieved a letter.
 The handwritting seems familiar..
 <<add()>>
 ===
-PrivCrochet_colorID: 0
-PrivCrochet_position: 935,-1
-PrivCrochet_tags: 
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 1465,-511
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
 title: poster_sister_room
 ---
 What even is this...
+Better be on my way.
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 808,-459
+__PrivCrochet_tags: rochet_tags:
+rochet_tags:
+title: introduction
+---
+Wake up.
+Please...
+Whats happening....[delay,300] is he going to be okay..?
+Listen here.
+It's his first time here. I'll make sure he will be okay.
+You have other places to be.
+You have to trust me.
+I'm just worried.
+Please..[delay,200] we both know there is no other way.
+Nothing better happen to him. [speed,0.1][shake]This[delay,300] wasn't[delay,300] supposed[delay,300] to[delay,300] happen.[/shake][/speed]
+
+===

@@ -92,19 +92,20 @@ function load_game(){
 	var load_array = json_parse(json);
 	global.game_progress = array_get(load_array,0);
 	global.save_data = array_get(load_array,1);
+	room_to_go = global.save_data.player_room
+	room_goto(room_to_go);
 	var raw_room_data = array_get(load_array, 2);                        
     for (var i = 0; i < array_length(raw_room_data); i += 2) {
         var key = raw_room_data[i];               
         var val = raw_room_data[i + 1];           
         global.room_data[$ key] = val;              
     } 
-	
-	obj_player.x = global.save_data.player_x;
-	obj_player.y = global.save_data.player_y;
-	obj_player.facing =global.save_data.player_facing;
-	global.player_inventory = global.save_data.inv;
-	room_to_go = global.save_data.player_room
-	room_goto(room_to_go)
+	if(instance_exists(obj_player)){
+		obj_player.x = global.save_data.player_x;
+		obj_player.y = global.save_data.player_y;
+		obj_player.facing =global.save_data.player_facing;
+		global.player_inventory = global.save_data.inv;
+	}
 	load_room();
 	
 	
