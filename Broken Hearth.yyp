@@ -442,6 +442,8 @@
     {"id":{"name":"spr_table_corridor","path":"sprites/spr_table_corridor/spr_table_corridor.yy",},},
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
     {"id":{"name":"spr_tree_1","path":"sprites/spr_tree_1/spr_tree_1.yy",},},
+    {"id":{"name":"spr_tree_2","path":"sprites/spr_tree_2/spr_tree_2.yy",},},
+    {"id":{"name":"spr_tree_3","path":"sprites/spr_tree_3/spr_tree_3.yy",},},
     {"id":{"name":"spr_wall_1","path":"sprites/spr_wall_1/spr_wall_1.yy",},},
     {"id":{"name":"spr_wall_corner_1","path":"sprites/spr_wall_corner_1/spr_wall_corner_1.yy",},},
     {"id":{"name":"spr_wall_corner_2","path":"sprites/spr_wall_corner_2/spr_wall_corner_2.yy",},},
