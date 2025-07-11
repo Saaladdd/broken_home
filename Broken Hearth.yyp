@@ -455,6 +455,7 @@
     {"id":{"name":"spr_wooden_tile_stained_1","path":"sprites/spr_wooden_tile_stained_1/spr_wooden_tile_stained_1.yy",},},
     {"id":{"name":"spr_wooden_tile_stained_2","path":"sprites/spr_wooden_tile_stained_2/spr_wooden_tile_stained_2.yy",},},
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
+    {"id":{"name":"Sprite77","path":"sprites/Sprite77/Sprite77.yy",},},
     {"id":{"name":"table_spr","path":"sprites/table_spr/table_spr.yy",},},
     {"id":{"name":"test","path":"sprites/test/test.yy",},},
     {"id":{"name":"wall_1_spr","path":"sprites/wall_1_spr/wall_1_spr.yy",},},
