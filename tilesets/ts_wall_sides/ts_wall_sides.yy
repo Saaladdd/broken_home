@@ -1,7 +1,9 @@
 {
   "$GMTileSet":"v1",
   "%Name":"ts_wall_sides",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"grass and path","closed_edge":false,"name":"grass and path","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[78,59,58,29,43,44,26,28,42,27,46,30,61,60,62,77,],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
