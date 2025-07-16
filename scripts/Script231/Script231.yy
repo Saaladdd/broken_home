@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script231",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script231",
+  "parent":{
+    "name":"spr_gr_fl_corridor",
+    "path":"folders/Sprites/spr_gr_fl_corridor.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
