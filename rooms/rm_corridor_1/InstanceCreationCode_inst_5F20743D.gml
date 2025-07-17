@@ -1,3 +1,3 @@
-target_x=400;
-target_y=290;
+target_x=320;
+target_y=160;
 target_room=rm_outside_house;
