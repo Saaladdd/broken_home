@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "name":"spr_outside_house",
+    "path":"folders/Sprites/spr_outside_house.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
