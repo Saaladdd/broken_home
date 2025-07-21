@@ -35,13 +35,13 @@ directions = [
 //All animation frames structure
 animations ={	
 	idle:{frames:[0,0]},
-	right:{frames:[8,11]},
-	left:{frames:[4,7]},
-	up:{frames:[12,15]},
+	right:{frames:[10,13]},
+	left:{frames:[5,8]},
+	up:{frames:[15,18]},
 	down:{frames:[0,3]},
-	right_face:{frames:[8,8]},
-	left_face:{frames:[4,4]},
-	up_face:{frames:[12,12]},
+	right_face:{frames:[10,10]},
+	left_face:{frames:[5,5]},
+	up_face:{frames:[15,15]},
 	down_face:{frames:[0,0]}
 };
 //Function for animations

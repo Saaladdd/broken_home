@@ -13,7 +13,7 @@ if((up || down || left || right) && global.can_move){
 	image_speed = 1;
 	if (keyboard_check(vk_lshift)) {
 	    rate_mov = dashspeed; // Dash speed
-	    image_speed = 2;      // Faster animation during dash
+	    image_speed = 1.5;      // Faster animation during dash
 	} else {
 	    rate_mov = movspeed;  // Normal speed
 	}
