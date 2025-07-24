@@ -476,6 +476,7 @@
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"Sprite81","path":"sprites/Sprite81/Sprite81.yy",},},
     {"id":{"name":"Sprite88","path":"sprites/Sprite88/Sprite88.yy",},},
+    {"id":{"name":"Sprite90","path":"sprites/Sprite90/Sprite90.yy",},},
     {"id":{"name":"table_spr","path":"sprites/table_spr/table_spr.yy",},},
     {"id":{"name":"test","path":"sprites/test/test.yy",},},
     {"id":{"name":"wall_1_spr","path":"sprites/wall_1_spr/wall_1_spr.yy",},},
